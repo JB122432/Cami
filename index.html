@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f8f1e8">
+    <title>Un jardín para ti 🌷</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="ambient-glow glow-one"></div>
+    <div class="ambient-glow glow-two"></div>
+
+    <main class="experience">
+
+        <!-- Pantalla inicial -->
+        <section class="welcome" id="welcome">
+            <div class="little-star">✧</div>
+
+            <p class="eyebrow">PARA CAMI CON CARIÑO</p>
+
+            <h1>Un jardín<br>para ti<span>.</span></h1>
+
+            <p class="intro">
+                Una flor cada noche no me parecio suficiente, asi que te hice un jardín ♡.
+            </p>
+
+            <div class="seed" aria-hidden="true">
+                <span></span>
+            </div>
+
+            <button class="main-button" id="startButton">
+                Descubrir mi sorpresa
+                <span>♡</span>
+            </button>
+
+            <p class="small-note">BY JB</p>
+        </section>
+
+        <!-- Jardín animado -->
+        <section class="garden-scene" id="gardenScene" hidden>
+            <p class="eyebrow garden-label">NUESTRO PEQUEÑO JARDÍN</p>
+
+            <h2>DESCANSA<br><em>T.Q.M</em></h2>
+
+            <div class="garden" id="garden">
+                <div class="moon" aria-hidden="true"></div>
+                <div class="stars" id="stars" aria-hidden="true"></div>
+
+                <div class="flowers" id="flowers"></div>
+
+                <div class="ground" aria-hidden="true"></div>
+            </div>  
+
+            <p class="garden-caption" id="gardenCaption">
+                Las cosas bonitas también crecen despacito...
+            </p>
+
+            <button class="main-button letter-button" id="letterButton" hidden>
+                Siempre habrá más
+                <span>♡</span>
+            </button>
+
+            <button class="replay-button" id="replayButton" hidden>
+                Volver a ver florecer el jardín ↻
+            </button>
+        </section>
+
+        <!-- Carta final -->
+        <section class="letter-scene" id="letterScene" hidden>
+            <div class="letter-icon">♡</div>
+
+            <p class="eyebrow">ESPERO TE HAYA GUSTADO</p>
+
+            <h2>Para ti,<br><em>con cariño.</em></h2>
+
+            <article class="letter">
+                <p id="letterText"></p>
+                <div class="signature">
+                    Con mucho cariño, Tomate 🍅 <span>♥</span>
+                </div>
+            </article>
+
+            <button class="main-button" id="backButton">
+                Volver al jardín
+                <span>🌷</span>
+            </button>
+        </section>
+
+    </main>
+
+    <footer>Si leiste esta parte, escribeme "patroclo" jajaja</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
